@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
     int minrand = 1;
     int maxrand = 100;
 
-    printf("Random number between %d and %d: %d\n", minrand, maxrand, (rand() % (maxrand - minrand + 1)) + minrand);
+    // printf("Random number between %d and %d: %d\n", minrand, maxrand, (rand() % (maxrand - minrand + 1)) + minrand);
     
     if (argc != 3) 
     {
